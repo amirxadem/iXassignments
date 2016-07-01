@@ -59,14 +59,12 @@ button {
     position: relative;
     display: inline-block;
     
-
 }
 
 .vids {
   display: block;
   text-align: left;
 }
-
 
 }
 .dropdown-bar {
@@ -88,10 +86,6 @@ button {
   position: fixed;
 }
 
-.row {
-  
-}
-
 .shoot {
   display: block;
   text-align: left;
@@ -104,6 +98,10 @@ button {
 
 .shoots::hover {
   opacity: 1
+}
+
+.images {
+  border: 2px solid black;
 }
 
 
