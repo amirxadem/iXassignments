@@ -100,8 +100,22 @@ button {
   opacity: 1
 }
 
-.images {
-  border: 2px solid black;
+#images {
+  padding: 10px;
+  margin-top: 5%;
+}
+
+.fall-scroll {
+  width: 400px;
+  height: 400px;
+  float: left;
+  margin-left:10%;
+  border: 1px solid orange;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  margin-top: 5%;
+
 }
 
 
