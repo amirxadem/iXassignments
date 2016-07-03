@@ -1,3 +1,17 @@
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+
+}
+
+.clearfix { display: inline-block; }
+* html .clearfix { height: 0%; }
+.clearfix { display: block; }
+
 body {
   margin: 0;
   background: black;
@@ -26,7 +40,8 @@ a:link {
 a:hover {
   text-decoration: none;
   color:white;
-  transition: 0.4s
+  transition: 0.3s
+
 }
 
 button {
@@ -34,76 +49,72 @@ button {
   border:none;
 }
 
-#nav {
-  padding-top: 5%;
-  text-align: center;
-  text-decoration: none;
-  font-family: Verdana;
-
-}
-
-#logo {
- border: 2px dashed black;
-  text-align: center;
-  color: red;
-
-}
-
-.dropbtn {
-    color: white;
-    text-align: left;
-
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-    
-
-}
-
-.vids {
-  display: block;
+.nav {
+  margin-top: 0%;
   text-align: left;
+  font-family: Verdana;
+  float: left;
+  border: 0px solid red;
+  display:block;
+  width: 500px;
+  margin-left: 8%;
+  margin-top:60px;
+  padding-left: 0%;
+  padding-right: 0px;
 }
 
+.container {
+  text-align: center;
+  border: 0px solid blue;
+}
+
+.button {
+  display: block;
+  border: 0px solid orange;
+  float: left;
+  margin-right:8%;
 
 }
-.dropdown-bar {
-  border: 2px solid black;
+
+.dropdown-content {
+    padding-left: 2px;
+    margin-top:0px;
+    position: absolute;
+    min-width: 160px;
+    border: 0px solid black;
+    margin-left: -2px;
+    opacity:0;
+
+}
+
+.button:hover .dropdown-content{
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.instagram .twitter: hover {
+
+}
+.shoots {
+  display: block;
 }
 
 .twitter {
   margin-top: 100%;
-  bottom: 10px;
-  left: 10px;
+  bottom: 1%;
+  margin-left: 20px;
   position: fixed;
-
+  border:0px solid black;
 }
 
 .instagram {
   margin-top: 100%;
-  bottom:10px;
-  left: 60px;
+  bottom:1%;
+  margin-left: 70px;
   position: fixed;
-}
+  border:0px solid red;
+  padding-right:0px;
 
-.row {
-  
-}
-
-.shoot {
-  display: block;
-  text-align: left;
-}
-
-.shoots::before {
-  color:red;
-  
-}
-
-.shoots::hover {
-  opacity: 1
 }
 
 
