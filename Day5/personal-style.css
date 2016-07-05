@@ -1,21 +1,26 @@
 .clearfix:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0;
-
-}
-
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
 .clearfix { display: inline-block; }
-* html .clearfix { height: 0%; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
 .clearfix { display: block; }
+/* close commented backslash hack */
+}
 
 body {
   margin: 0;
   background: black;
-  
+
+}
+
+* { box-sizing: border-box;
+
 }
 video { 
   position: fixed;
@@ -40,7 +45,8 @@ a:link {
 a:hover {
   text-decoration: none;
   color:white;
-  transition: 0.3s
+  transition: 0.3s;
+  
 
 }
 
@@ -57,15 +63,16 @@ button {
   border: 0px solid red;
   display:block;
   width: 500px;
-  margin-left: 8%;
+  margin-left: 5%;
   margin-top:60px;
   padding-left: 0%;
   padding-right: 0px;
+  position: fixed;
 }
 
 .container {
   text-align: center;
-  border: 0px solid blue;
+  border: 0.2px solid gray;
 }
 
 .button {
@@ -73,6 +80,7 @@ button {
   border: 0px solid orange;
   float: left;
   margin-right:8%;
+
 
 }
 
@@ -84,15 +92,35 @@ button {
     border: 0px solid black;
     margin-left: -2px;
     opacity:0;
+    display: none;
 
 }
 
+.img-box {
+  border: 2px solid black;
+  width: 40%;
+  float: left;
+  border: 0px solid orange;
+  margin-top: 0px;
+  padding: 10px;
+  border: 0px solid red;
+  margin-left: 5%;
+
+}
+.pic-container {
+  margin:0px auto;
+  width: 90%;
+  border: 0px solid orange;
+  margin-top: 10%;
+}
 .button:hover .dropdown-content{
   opacity: 1;
-  transition: 0.5s;
+  display:block;
+  transition: 1s;
 }
 
 .instagram .twitter: hover {
+
 
 }
 .shoots {
@@ -105,6 +133,7 @@ button {
   margin-left: 20px;
   position: fixed;
   border:0px solid black;
+  width: 600px;
 }
 
 .instagram {
@@ -114,9 +143,20 @@ button {
   position: fixed;
   border:0px solid red;
   padding-right:0px;
+  width: 600px;
 
 }
 
+.soundcloud {
+  margin-top: 100%;
+  bottom: 1%;
+  margin-left: 120px;
+  position: fixed;
+  width: 640px;
+}
 
 
+@media (max-width: 1024px) {
+
+}
 
