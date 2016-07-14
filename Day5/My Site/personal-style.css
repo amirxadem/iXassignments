@@ -1,0 +1,162 @@
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+}
+
+body {
+  margin: 0;
+  background: black;
+
+}
+
+* { box-sizing: border-box;
+
+}
+video { 
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color:white;
+  transition: 0.3s;
+  
+
+}
+
+button {
+  background: transparent;
+  border:none;
+}
+
+.nav {
+  margin-top: 0%;
+  text-align: left;
+  font-family: Verdana;
+  float: left;
+  border: 0px solid red;
+  display:block;
+  width: 500px;
+  margin-left: 5%;
+  margin-top:60px;
+  padding-left: 0%;
+  padding-right: 0px;
+  position: fixed;
+}
+
+.container {
+  text-align: center;
+  border: 0.2px solid gray;
+}
+
+.button {
+  display: block;
+  border: 0px solid orange;
+  float: left;
+  margin-right:8%;
+
+
+}
+
+.dropdown-content {
+    padding-left: 2px;
+    margin-top:0px;
+    position: absolute;
+    min-width: 160px;
+    border: 0px solid black;
+    margin-left: -2px;
+    opacity:0;
+    display: none;
+
+}
+
+.img-box {
+  border: 2px solid black;
+  width: 40%;
+  float: left;
+  border: 0px solid orange;
+  margin-top: 0px;
+  padding: 10px;
+  border: 0px solid red;
+  margin-left: 5%;
+
+}
+.pic-container {
+  margin:0px auto;
+  width: 90%;
+  border: 0px solid orange;
+  margin-top: 10%;
+}
+.button:hover .dropdown-content{
+  opacity: 1;
+  display:block;
+  transition: 1s;
+}
+
+.instagram .twitter: hover {
+
+
+}
+.shoots {
+  display: block;
+}
+
+.twitter {
+  margin-top: 100%;
+  bottom: 1%;
+  margin-left: 20px;
+  position: fixed;
+  border:0px solid black;
+  width: 600px;
+}
+
+.instagram {
+  margin-top: 100%;
+  bottom:1%;
+  margin-left: 70px;
+  position: fixed;
+  border:0px solid red;
+  padding-right:0px;
+  width: 600px;
+
+}
+
+.soundcloud {
+  margin-top: 100%;
+  bottom: 1%;
+  margin-left: 120px;
+  position: fixed;
+  width: 640px;
+}
+
+
+@media (max-width: 1024px) {
+
+}
+

@@ -1,0 +1,13 @@
+Notes.txt 
+
+Positive
+- Video makes it look like a very artsy page
+	-*constructive - make it scale with when you change the screens size
+	-can be confusing when you make the screen different and youre looking at a different part of the video
+-Social media buttons look good and solid placement
+	-*Make a hover affect when you go over it maybe to make it pop
+
+Constructive
+- You should make drop downs for some of the navbar items
+- Also, when the screen get's smaller could maybe help to have a hamburger icon with everything consolidated inside
+-Put your picture somewhere maybe?		
